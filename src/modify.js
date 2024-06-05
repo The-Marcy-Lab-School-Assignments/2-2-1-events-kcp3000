@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job getting all test cases to pass! */
 const eleId = document.getElementById("click-button")
 const inline = document.getElementById("inline-example")
 
@@ -75,7 +76,7 @@ const remove = document.getElementById("remove")
 remove.addEventListener("click", (event) => {
   delegation.removeEventListener("click", handleDelegation)
 })
-
+/** FEEDBACK: What other variables and event handler could you have put here to make your code neater? */
 const main = () => {
   const delegationContainer = document.querySelector('#delegation');
 

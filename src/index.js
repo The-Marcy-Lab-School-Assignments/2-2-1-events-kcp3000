@@ -5,6 +5,6 @@ const addHandler = () => {
   let num = Number(p.innerHTML)
   p.textContent = num += 1
 }
-
+/** FEEDBACK: Start creating the habit of using a runner function! */
 button.addEventListener("click", addHandler)
 
